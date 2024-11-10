@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "528858367803",
+    "project_id": "cau-safebite",
+    "storage_bucket": "cau-safebite.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528858367803:android:b18290b908d8aa2584591e",
+        "android_client_info": {
+          "package_name": "com.example.cau_safebite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk0ujByh2sJLPDKSHprPH4VIIi_Upav7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

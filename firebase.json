@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "cau-safebite",
+          "appId": "1:528858367803:android:b18290b908d8aa2584591e",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "cau-safebite",
+          "configurations": {
+            "android": "1:528858367803:android:b18290b908d8aa2584591e",
+            "ios": "1:528858367803:ios:fc5edcb9c1e3b6d084591e",
+            "web": "1:528858367803:web:1fdbbb344db98f2b84591e"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
