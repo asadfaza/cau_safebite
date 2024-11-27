@@ -14,7 +14,6 @@ class _Welcome_pageState extends State<Welcome_page> {
   bool isReady = false;
   @override
   Widget build(BuildContext context) {
-    Size screenSize = MediaQuery.of(context).size;
     return MaterialApp(
       home: Scaffold(
         body: Stack(children: [
