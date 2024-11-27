@@ -2,11 +2,11 @@ import 'package:cau_safebite/auth/auth.dart';
 import 'package:cau_safebite/auth/login_page.dart';
 import 'package:cau_safebite/auth/sign_in_page.dart';
 import 'package:cau_safebite/firebase_options.dart';
-import 'package:cau_safebite/pages/dietary_plan.dart';
-import 'package:cau_safebite/pages/favorite.dart';
+import 'package:cau_safebite/pages/favorite_page.dart';
+import 'package:cau_safebite/pages/meal_plan.dart';
 import 'package:cau_safebite/pages/home_page.dart';
 import 'package:cau_safebite/pages/profile.dart';
-import 'package:cau_safebite/welcome_pages/customize.dart';
+import 'package:cau_safebite/welcome_pages/welcome_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -20,7 +20,7 @@ void main() async {
     initialRoute: '/auth',
     routes: {
       '/': (context) => const MyApp(),
-      '/custom': (context) => const AllergySelectionScreen(),
+      '/custom': (context) => WelcomePage(index: 0,),
       '/auth': (context) => const AuthCheck(),
       '/homePage': (context) => const HomePage(),
       '/favorite': (context) => MealPlanPage(),
@@ -39,8 +39,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  final tabs = [HomePage(), MealPlanPage(), DietaryPlan(), ProfileScreen()];
+  String? user;
   int _currentIndex = 0;
+  final tabs = [HomePage(), MealPlanPage(), FavoritePage(), ProfileScreen()];
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

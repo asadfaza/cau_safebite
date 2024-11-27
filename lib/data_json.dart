@@ -15,7 +15,7 @@ const jsonData = '''[
         "fats": 0.2,
         "carbohydrates": 11.8,
         "fiber": 2.4,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0001.png"
+        "image_url": "assets/images/0001.png"
     },
     {
         "category": "fruit",
@@ -28,7 +28,7 @@ const jsonData = '''[
         "fats": 0.2,
         "carbohydrates": 13.8,
         "fiber": 2.4,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0002.png"
+        "image_url": "assets/images/0002.png"
     },
     {
         "category": "fast food",
@@ -46,7 +46,7 @@ const jsonData = '''[
         "fats": 14.0,
         "carbohydrates": 28.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0008.png"
+        "image_url": "assets/images/0008.png"
     },
     {
         "category": "salad",
@@ -63,7 +63,7 @@ const jsonData = '''[
         "fats": 4.5,
         "carbohydrates": 3.5,
         "fiber": 2.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0009.png"
+        "image_url": "assets/images/0009.png"
     },
     {
         "category": "fruit",
@@ -76,7 +76,7 @@ const jsonData = '''[
         "fats": 0.5,
         "carbohydrates": 14.0,
         "fiber": 3.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0010.png"
+        "image_url": "assets/images/0010.png"
     },
     {
         "category": "snack",
@@ -89,7 +89,7 @@ const jsonData = '''[
         "fats": 0.2,
         "carbohydrates": 83.0,
         "fiber": 3.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0012.png"
+        "image_url": "assets/images/0012.png"
     },
     {
         "category": "salad",
@@ -105,7 +105,7 @@ const jsonData = '''[
         "fats": 0.1,
         "carbohydrates": 4.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0013.png"
+        "image_url": "assets/images/0013.png"
     },
     {
         "category": "pastries",
@@ -119,7 +119,7 @@ const jsonData = '''[
         "fats": 8.0,
         "carbohydrates": 35.0,
         "fiber": 1.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0014.png"
+        "image_url": "assets/images/0014.png"
     },
     {
         "category": "dessert",
@@ -132,7 +132,7 @@ const jsonData = '''[
         "fats": 30.0,
         "carbohydrates": 58.0,
         "fiber": 7.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0015.png"
+        "image_url": "assets/images/0015.png"
     },
     {
         "category": "snack",
@@ -145,7 +145,7 @@ const jsonData = '''[
         "fats": 75.8,
         "carbohydrates": 13.8,
         "fiber": 8.6,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0016.png"
+        "image_url": "assets/images/0016.png"
     },
     {
         "category": "salad",
@@ -162,7 +162,7 @@ const jsonData = '''[
         "fats": 5.0,
         "carbohydrates": 8.5,
         "fiber": 2.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0020.png"
+        "image_url": "assets/images/0020.png"
     },
     {
         "category": "dessert",
@@ -178,7 +178,7 @@ const jsonData = '''[
         "fats": 11.0,
         "carbohydrates": 63.0,
         "fiber": 1.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0021.png"
+        "image_url": "assets/images/0021.png"
     },
     {
         "category": "snack",
@@ -191,7 +191,7 @@ const jsonData = '''[
         "fats": 49.9,
         "carbohydrates": 21.6,
         "fiber": 12.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0023.png"
+        "image_url": "assets/images/0023.png"
     },
     {
         "category": "fruit",
@@ -204,7 +204,7 @@ const jsonData = '''[
         "fats": 0.3,
         "carbohydrates": 14.5,
         "fiber": 2.4,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0025.png"
+        "image_url": "assets/images/0025.png"
     },
     {
         "category": "snack",
@@ -217,7 +217,7 @@ const jsonData = '''[
         "fats": 43.9,
         "carbohydrates": 30.2,
         "fiber": 3.3,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0029.png"
+        "image_url": "assets/images/0029.png"
     },
     {
         "category": "snack",
@@ -232,7 +232,7 @@ const jsonData = '''[
         "fats": 23.0,
         "carbohydrates": 61.0,
         "fiber": 5.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0030.png"
+        "image_url": "assets/images/0030.png"
     },
     {
         "category": "snack",
@@ -247,7 +247,7 @@ const jsonData = '''[
         "fats": 35.0,
         "carbohydrates": 53.0,
         "fiber": 4.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0031.png"
+        "image_url": "assets/images/0031.png"
     },
     {
         "category": "dessert",
@@ -263,7 +263,7 @@ const jsonData = '''[
         "fats": 15.0,
         "carbohydrates": 48.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0032.png"
+        "image_url": "assets/images/0032.png"
     },
     {
         "category": "vegetable",
@@ -276,7 +276,7 @@ const jsonData = '''[
         "fats": 0.1,
         "carbohydrates": 3.6,
         "fiber": 0.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0033.png"
+        "image_url": "assets/images/0033.png"
     },
     {
         "category": "breakfast",
@@ -291,7 +291,7 @@ const jsonData = '''[
         "fats": 9.0,
         "carbohydrates": 22.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0037.png"
+        "image_url": "assets/images/0037.png"
     },
     {
         "category": "fruit",
@@ -304,7 +304,7 @@ const jsonData = '''[
         "fats": 0.6,
         "carbohydrates": 12.0,
         "fiber": 6.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0038.png"
+        "image_url": "assets/images/0038.png"
     },
     {
         "category": "fruit",
@@ -317,7 +317,7 @@ const jsonData = '''[
         "fats": 0.1,
         "carbohydrates": 13.1,
         "fiber": 1.4,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0044.png"
+        "image_url": "assets/images/0044.png"
     },
     {
         "category": "snack",
@@ -330,7 +330,7 @@ const jsonData = '''[
         "fats": 45.8,
         "carbohydrates": 27.0,
         "fiber": 10.3,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0048.png"
+        "image_url": "assets/images/0048.png"
     },
     {
         "category": "sandwich",
@@ -346,7 +346,7 @@ const jsonData = '''[
         "fats": 6.0,
         "carbohydrates": 35.0,
         "fiber": 3.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0049.png"
+        "image_url": "assets/images/0049.png"
     },
     {
         "category": "vegetable",
@@ -359,7 +359,7 @@ const jsonData = '''[
         "fats": 0.2,
         "carbohydrates": 3.9,
         "fiber": 1.2,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0054.png"
+        "image_url": "assets/images/0054.png"
     },
     {
         "category": "salad",
@@ -373,7 +373,7 @@ const jsonData = '''[
         "fats": 0.1,
         "carbohydrates": 4.0,
         "fiber": 1.2,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0055.png"
+        "image_url": "assets/images/0055.png"
     },
     {
         "category": "snack",
@@ -386,7 +386,7 @@ const jsonData = '''[
         "fats": 65.2,
         "carbohydrates": 13.7,
         "fiber": 6.7,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0057.png"
+        "image_url": "assets/images/0057.png"
     },
     {
         "category": "breakfast",
@@ -402,7 +402,7 @@ const jsonData = '''[
         "fats": 8.5,
         "carbohydrates": 22.0,
         "fiber": 0.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0060.png"
+        "image_url": "assets/images/0060.png"
     },
     {
         "category": "vegetable",
@@ -415,7 +415,7 @@ const jsonData = '''[
         "fats": 0.3,
         "carbohydrates": 3.3,
         "fiber": 1.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0063.png"
+        "image_url": "assets/images/0063.png"
     },
     {
         "category": "fruit",
@@ -428,7 +428,7 @@ const jsonData = '''[
         "fats": 0.3,
         "carbohydrates": 22.8,
         "fiber": 2.6,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0066.png"
+        "image_url": "assets/images/0066.png"
     },
     {
         "category": "fruit",
@@ -441,7 +441,7 @@ const jsonData = '''[
         "fats": 0.1,
         "carbohydrates": 15.0,
         "fiber": 3.1,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0072.png"
+        "image_url": "assets/images/0072.png"
     },
     {
         "category": "vegetable",
@@ -454,7 +454,7 @@ const jsonData = '''[
         "fats": 0.1,
         "carbohydrates": 17.0,
         "fiber": 2.2,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0075.png"
+        "image_url": "assets/images/0075.png"
     },
     {
         "category": "salad",
@@ -469,7 +469,7 @@ const jsonData = '''[
         "fats": 5.0,
         "carbohydrates": 2.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0078.png"
+        "image_url": "assets/images/0078.png"
     },
     {
         "category": "salad",
@@ -484,7 +484,7 @@ const jsonData = '''[
         "fats": 6.0,
         "carbohydrates": 2.5,
         "fiber": 1.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0079.png"
+        "image_url": "assets/images/0079.png"
     },
     {
         "category": "dessert",
@@ -500,7 +500,7 @@ const jsonData = '''[
         "fats": 10.0,
         "carbohydrates": 30.0,
         "fiber": 2.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0083.png"
+        "image_url": "assets/images/0083.png"
     },
     {
         "category": "protein",
@@ -513,7 +513,7 @@ const jsonData = '''[
         "fats": 10.0,
         "carbohydrates": 1.1,
         "fiber": 0.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0091.png"
+        "image_url": "assets/images/0091.png"
     },
     {
         "category": "wrap",
@@ -529,7 +529,7 @@ const jsonData = '''[
         "fats": 8.0,
         "carbohydrates": 24.0,
         "fiber": 2.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0117.png"
+        "image_url": "assets/images/0117.png"
     },
     {
         "category": "snack",
@@ -543,7 +543,7 @@ const jsonData = '''[
         "fats": 20.0,
         "carbohydrates": 60.0,
         "fiber": 3.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0155.png"
+        "image_url": "assets/images/0155.png"
     },
     {
         "category": "snack",
@@ -559,7 +559,7 @@ const jsonData = '''[
         "fats": 15.0,
         "carbohydrates": 60.0,
         "fiber": 5.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0158.png"
+        "image_url": "assets/images/0158.png"
     },
     {
         "category": "dessert",
@@ -575,7 +575,7 @@ const jsonData = '''[
         "fats": 22.0,
         "carbohydrates": 55.0,
         "fiber": 2.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0243.png"
+        "image_url": "assets/images/0243.png"
     },
     {
         "category": "French Fries",
@@ -590,7 +590,7 @@ const jsonData = '''[
         "fats": 15.0,
         "carbohydrates": 35.0,
         "fiber": 3.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0289.png"
+        "image_url": "assets/images/0289.png"
     },
     {
         "category": "Nuggets",
@@ -607,7 +607,7 @@ const jsonData = '''[
         "fats": 13.0,
         "carbohydrates": 14.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0293.png"
+        "image_url": "assets/images/0293.png"
     },
     {
         "category": "Wrap",
@@ -623,7 +623,7 @@ const jsonData = '''[
         "fats": 8.0,
         "carbohydrates": 25.0,
         "fiber": 3.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0294.png"
+        "image_url": "assets/images/0294.png"
     },
     {
         "category": "Pastry",
@@ -640,7 +640,7 @@ const jsonData = '''[
         "fats": 22.0,
         "carbohydrates": 45.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0301.png"
+        "image_url": "assets/images/0301.png"
     },
     {
         "category": "Cookies",
@@ -657,7 +657,7 @@ const jsonData = '''[
         "fats": 20.0,
         "carbohydrates": 60.0,
         "fiber": 2.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0328.png"
+        "image_url": "assets/images/0328.png"
     },
     {
         "category": "Italian",
@@ -673,7 +673,7 @@ const jsonData = '''[
         "fats": 8.0,
         "carbohydrates": 30.0,
         "fiber": 2.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0357.png"
+        "image_url": "assets/images/0357.png"
     },
     {
         "category": "Japanese",
@@ -690,7 +690,7 @@ const jsonData = '''[
         "fats": 2.5,
         "carbohydrates": 20.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0374.png"
+        "image_url": "assets/images/0374.png"
     },
     {
         "category": "Japanese",
@@ -706,7 +706,7 @@ const jsonData = '''[
         "fats": 2.0,
         "carbohydrates": 25.0,
         "fiber": 1.0,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0427.png"
+        "image_url": "assets/images/0427.png"
     },
     {
         "category": "Asian",
@@ -722,7 +722,7 @@ const jsonData = '''[
         "fats": 3.5,
         "carbohydrates": 30.0,
         "fiber": 1.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0458.png"
+        "image_url": "assets/images/0458.png"
     },
     {
         "category": "Japanese",
@@ -739,10 +739,300 @@ const jsonData = '''[
         "fats": 6.0,
         "carbohydrates": 40.0,
         "fiber": 3.5,
-        "image_url": "https://cau-hackaton.s3.amazonaws.com/images/0527.png"
+        "image_url": "assets/images/0527.png"
     }
 ]
 ''';
+
+List<Map<String, dynamic>> mealPlan = [
+  {
+    "day": "Sun",
+    "date": "24",
+    "meals": [
+      {
+        "category": "Breakfast",
+        "title": "Fried Egg on Toast",
+        "calories": 180,
+        "imageUrl": "assets/images/0037.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Snack",
+        "title": "Oranges",
+        "calories": 62,
+        "imageUrl": "assets/images/0001.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Lunch",
+        "title": "Greek Salad",
+        "calories": 120,
+        "imageUrl": "assets/images/0009.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dinner",
+        "title": "Cheeseburger",
+        "calories": 350,
+        "imageUrl": "assets/images/0008.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dessert",
+        "title": "Chocolate Donuts",
+        "calories": 290,
+        "imageUrl": "assets/images/0032.png",
+        "isConsumed": false
+      },
+    ],
+  },
+  {
+    "day": "Mon",
+    "date": "25",
+    "meals": [
+      {
+        "category": "Breakfast",
+        "title": "Bacon Pancake",
+        "calories": 250,
+        "imageUrl": "assets/images/0060.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Snack",
+        "title": "Almonds",
+        "calories": 160,
+        "imageUrl": "assets/images/0023.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Lunch",
+        "title": "Pickled Salad",
+        "calories": 70,
+        "imageUrl": "assets/images/0013.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dinner",
+        "title": "Deli Sandwiches",
+        "calories": 400,
+        "imageUrl": "assets/images/0049.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dessert",
+        "title": "Stroopwafels",
+        "calories": 210,
+        "imageUrl": "assets/images/0021.png",
+        "isConsumed": false
+      },
+    ],
+  },
+  {
+    "day": "Tue",
+    "date": "26",
+    "meals": [
+      {
+        "category": "Breakfast",
+        "title": "Apple Pastries",
+        "calories": 220,
+        "imageUrl": "assets/images/0014.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Snack",
+        "title": "Macadamia Nuts",
+        "calories": 200,
+        "imageUrl": "assets/images/0016.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Lunch",
+        "title": "Waldorf Salad",
+        "calories": 180,
+        "imageUrl": "assets/images/0020.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dinner",
+        "title": "Salmon Salad",
+        "calories": 240,
+        "imageUrl": "assets/images/0078.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dessert",
+        "title": "Chocolate Sticks",
+        "calories": 250,
+        "imageUrl": "assets/images/0015.png",
+        "isConsumed": false
+      },
+    ],
+  },
+  {
+    "day": "Wed",
+    "date": "27",
+    "meals": [
+      {
+        "category": "Breakfast",
+        "title": "Fried Egg on Toast",
+        "calories": 180,
+        "imageUrl": "assets/images/0037.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Snack",
+        "title": "Blueberries",
+        "calories": 85,
+        "imageUrl": "assets/images/0025.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Lunch",
+        "title": "Egg and Greens Salad",
+        "calories": 150,
+        "imageUrl": "assets/images/0079.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dinner",
+        "title": "Cheeseburger",
+        "calories": 350,
+        "imageUrl": "assets/images/0008.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dessert",
+        "title": "Apple Pie",
+        "calories": 300,
+        "imageUrl": "assets/images/0014.png",
+        "isConsumed": false
+      },
+    ],
+  },
+  {
+    "day": "Thu",
+    "date": "28",
+    "meals": [
+      {
+        "category": "Breakfast",
+        "title": "Bacon Pancake",
+        "calories": 250,
+        "imageUrl": "assets/images/0060.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Snack",
+        "title": "Cashews",
+        "calories": 155,
+        "imageUrl": "assets/images/0029.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Lunch",
+        "title": "Cucumber Tomato Salad",
+        "calories": 90,
+        "imageUrl": "assets/images/0055.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dinner",
+        "title": "Salmon Salad",
+        "calories": 240,
+        "imageUrl": "assets/images/0078.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dessert",
+        "title": "Stroopwafels",
+        "calories": 210,
+        "imageUrl": "assets/images/0021.png",
+        "isConsumed": false
+      },
+    ],
+  },
+  {
+    "day": "Fri",
+    "date": "29",
+    "meals": [
+      {
+        "category": "Breakfast",
+        "title": "Fried Egg on Toast",
+        "calories": 180,
+        "imageUrl": "assets/images/0037.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Snack",
+        "title": "Pistachios",
+        "calories": 160,
+        "imageUrl": "assets/images/0048.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Lunch",
+        "title": "Waldorf Salad",
+        "calories": 180,
+        "imageUrl": "assets/images/0020.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dinner",
+        "title": "Deli Sandwiches",
+        "calories": 400,
+        "imageUrl": "assets/images/0049.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dessert",
+        "title": "Chocolate Donuts",
+        "calories": 290,
+        "imageUrl": "assets/images/0032.png",
+        "isConsumed": false
+      },
+    ],
+  },
+  {
+    "day": "Sat",
+    "date": "30",
+    "meals": [
+      {
+        "category": "Breakfast",
+        "title": "Apple Pastries",
+        "calories": 220,
+        "imageUrl": "assets/images/0014.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Snack",
+        "title": "Walnuts",
+        "calories": 160,
+        "imageUrl": "assets/images/0057.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Lunch",
+        "title": "Greek Salad",
+        "calories": 120,
+        "imageUrl": "assets/images/0009.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dinner",
+        "title": "Cheeseburger",
+        "calories": 350,
+        "imageUrl": "assets/images/0008.png",
+        "isConsumed": false
+      },
+      {
+        "category": "Dessert",
+        "title": "Apple Pie",
+        "calories": 300,
+        "imageUrl": "assets/images/0014.png",
+        "isConsumed": false
+      },
+    ],
+  },
+];
 
 // Parse JSON data and convert it to a list of FoodItems
 List<FoodItem> parseFoodItems(String jsonData) {

@@ -163,6 +163,10 @@ class _LoginState extends State<Login> {
                         content: Text("Welcome, ${user.displayName}!")));
                     Navigator.pushNamedAndRemoveUntil(
                         context, '/custom', (route) => false);
+                  }else {
+                    setState(() {
+                    _loadingGoogle = !_loadingGoogle;
+                  });
                   }
                   setState(() {
                     _loadingGoogle = !_loadingGoogle;

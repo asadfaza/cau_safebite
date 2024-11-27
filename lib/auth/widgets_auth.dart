@@ -5,7 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 Color firstColor = Colors.blueGrey;
-Color secondColor = Color(0xffFF6A48);
+Color secondColor = Color(0xffA3CFF3);
 Color bColor = Colors.grey.shade50;
 
 class FadePageRoute<T> extends MaterialPageRoute<T> {

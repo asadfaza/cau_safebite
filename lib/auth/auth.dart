@@ -1,5 +1,5 @@
+import 'package:cau_safebite/auth/login_page.dart';
 import 'package:cau_safebite/main.dart';
-import 'package:cau_safebite/welcome_page.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
@@ -55,7 +55,7 @@ class AuthCheck extends StatelessWidget {
           if (user != null) {
             return MyApp();
           } else {
-            return Welcome_page();
+            return Login();
           }
         }
         // While waiting for the authentication check to complete, show a loading indicator
